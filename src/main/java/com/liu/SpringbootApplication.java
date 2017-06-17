@@ -18,6 +18,7 @@ public class SpringbootApplication {
 		int end = serverName.lastIndexOf("/");
 		serverName = serverName.substring(0, end);
 		final String[] domains = serverName.split("\\.");
+		//测试新功能
 		return domains[0];
 	}
 
