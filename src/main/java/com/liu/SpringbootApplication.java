@@ -11,7 +11,7 @@ public class SpringbootApplication {
 
 	@RequestMapping("/index")
 	public String index(){
-		//现在A计划功能开发
+		//现在A计划功能开发2
 		return "Hello This is Spring Boot Test UI";
 	}
 
